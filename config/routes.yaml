@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+cristea_ioan:
+  path: /cristea_ioan
+  controller: App\Controller\CristeaIoan::number
