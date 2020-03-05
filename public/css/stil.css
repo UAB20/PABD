@@ -1,0 +1,23 @@
+body{
+    background-color: #222222;
+    align: center;
+}
+
+p{
+    align-content: center;
+    width: 80%;
+    margin:0 auto;
+    font-weight: bold;
+    color:#dfdfdf;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #222222;
+    font-size: large;
+}
+
+img{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
