@@ -5,3 +5,23 @@
 cristea_ioan:
   path: /cristea_ioan
   controller: App\Controller\CristeaIoan::number
+
+blog_first_page:
+  path: /blog
+  controller: App\Controller\BlogController::getIndex
+
+blog_post_page:
+  path: /post?id={id}
+  controller: App\Controller\BlogController::getPostPage
+
+blog_new_post:
+  path: /blog/new_post
+  controller: App\Controller\BlogController::getNewPost
+
+blog_edit_post:
+  path: /blog/edit_post?id={id}
+  controller: App\Controller\BlogController::getEditPost
+
+blog_delete_post:
+  path: /blog/delete_post?id={id}
+  controller: App\Controller\BlogController::postDeletePost
