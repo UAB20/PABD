@@ -24,3 +24,7 @@ app_Test3:
 app_Test4:
   path: /test4
   controller: App\Controller\Bettina::getTest4Page
+
+cristea_ioan:
+  path: /cristea_ioan
+  controller: App\Controller\CristeaIoan::number
