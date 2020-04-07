@@ -1,11 +1,21 @@
+
 body{
     background-color: #222222;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+
     margin: 0;
 }
 
 .container {
     max-width: 80%;
     margin: 0 auto;
+
 }
 
 header {
@@ -50,4 +60,20 @@ img{
     width: 200px;
     height: auto;
     margin-right: 20px;
+
+    padding: 40px 24px;
+    background-color: #fff;
+}
+.container:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+
 }
