@@ -8,11 +8,29 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class Bettina  extends AbstractController
 {
-    public function number()
+    public function getFrontPage()
     {
-        $number = random_int(0, 100);
+        return $this->render("index.html.twig");
+    }
 
-        return $this->render("Bettina.html.twig",["number"=>$number]
-        );
+    public function getPersonalPage()
+    {
+        return $this->render("Bettina.html.twig");
+    }
+    public function getTest1Page()
+    {
+        return $this->render("test1.html.twig");
+    }
+    public function getTest2Page()
+    {
+        return $this->render("test2.html.twig");
+    }
+    public function getTest3Page()
+    {
+        return $this->render("test3.html.twig");
+    }
+    public function getTest4Page()
+    {
+        return $this->render("test4.html.twig");
     }
 }
