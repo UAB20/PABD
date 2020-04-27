@@ -1,6 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
 app_front:
   path: /
   controller: App\Controller\Bettina::getFrontPage
@@ -33,3 +34,9 @@ pojar_alexandru:
 cristea_ioan:
   path: /cristea_ioan
   controller: App\Controller\CristeaIoan::number
+
+
+cristea_ioan:
+  path: /cristea_ioan
+  controller: App\Controller\CristeaIoan::number
+
