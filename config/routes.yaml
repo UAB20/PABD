@@ -25,6 +25,11 @@ app_Test4:
   path: /test4
   controller: App\Controller\Bettina::getTest4Page
 
+
+pojar_alexandru:
+  path: /pojar_alexandru
+  controller: App\Controller\PojarAlexandru::number
+
 cristea_ioan:
   path: /cristea_ioan
   controller: App\Controller\CristeaIoan::number
