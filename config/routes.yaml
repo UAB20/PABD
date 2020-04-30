@@ -35,8 +35,6 @@ cristea_ioan:
   path: /cristea_ioan
   controller: App\Controller\CristeaIoan::number
 
-
-cristea_ioan:
-  path: /cristea_ioan
-  controller: App\Controller\CristeaIoan::number
-
+bunulescu_stefan:
+   path: /bunulescu_stefan
+   controller: App\Controller\BunulescuStefan::index
