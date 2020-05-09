@@ -2,6 +2,11 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
+
+pojar_alexandru:
+  path: /pojar_alexandru
+  controller: App\Controller\PojarAlexandru::number
+
 cristea_ioan:
   path: /cristea_ioan
   controller: App\Controller\CristeaIoan::number
